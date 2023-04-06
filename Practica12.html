@@ -1,0 +1,55 @@
+<!--12.- Realice una tabla que tenga nombres de provincias, nombres y cantidad de habitantes
+de algunas de sus ciudades, y habitantes totales de la provincia. Analice combinar celdas-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Document</title>
+
+    <style>
+        table,th,td{
+        border: 2px solid black;
+      
+        }
+    </style>
+</head>
+<body>
+    
+
+    <table  width="400" >
+        <thead>
+            <caption> Habitantes por provincia</caption>
+    
+        </thead>
+    
+        <tbody>
+    
+            <tr>
+                <td colspan="2" align="center">Cordoba</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">509.108</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="provincia">Buenos Aires</td>
+                <td class="provincia">Caba</td>
+            </tr>
+    
+            <tr>
+                <td>20.890.151</td>
+            </tr>
+    
+            <tr>
+                <td colspan="2" align="center" class="provincia">Santa Fe</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">7.308.876</td>
+            </tr>
+    
+        </tbody>
+    
+    </table>
+    
+</body>
+</html>
